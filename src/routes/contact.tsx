@@ -5,8 +5,8 @@ export default function ContactPage() {
   return (
     <Layout>
       <Article>
-        <ArticleContent title="Contact">
-          Add your contact information here.
+        <ArticleContent title="Cardápio">
+          Conheça os sabores que são P%$@ da Galáxia
         </ArticleContent>
 
         <ArticleMedia>
