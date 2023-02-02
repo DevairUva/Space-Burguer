@@ -5,14 +5,13 @@ export default function FaqsPage() {
   return (
     <Layout>
       <Article>
-        <ArticleContent title="FAQ's">
-          <p>Add your FAQ content here.</p>
+        <ArticleContent title="Squad 1">
+          <p>Conheça cada um dos integrantes</p>
           <details
             className="mt-4 block rounded-sm border px-4 open:border-primary-400 hover:border-primary-300"
-            open
           >
             <summary className="-mx-4 cursor-pointer border-primary-200 py-3 px-4">
-              What is Holly?
+              Daniella
             </summary>
             <p>
               Holly is a free HTML/CSS landing page designed and developed by{' '}
@@ -27,7 +26,7 @@ export default function FaqsPage() {
           </details>
           <details className="mt-4 block rounded-sm border border-gray-200 px-4 hover:border-primary-300">
             <summary className="-mx-4 cursor-pointer py-3 px-4">
-              How can I use Holly?
+              David Lopes
             </summary>
             <p>
               Holly is licensed under the MIT License, which means you can use
@@ -40,7 +39,27 @@ export default function FaqsPage() {
           </details>
           <details className="mt-4 block rounded-sm border border-gray-200 px-4 hover:border-primary-300">
             <summary className="-mx-4 cursor-pointer py-3 px-4">
-              Can I contribute to Holly?
+              Devair
+            </summary>
+            <p>
+              Yes, you can! Holly is an open source project, and you can
+              contribute to it on{' '}
+              <a href="https://github.com/lukemcdonald/holly-react">GitHub</a>.
+            </p>
+          </details>
+          <details className="mt-4 block rounded-sm border border-gray-200 px-4 hover:border-primary-300">
+            <summary className="-mx-4 cursor-pointer py-3 px-4">
+              Carolina
+            </summary>
+            <p>
+              Yes, you can! Holly is an open source project, and you can
+              contribute to it on{' '}
+              <a href="https://github.com/lukemcdonald/holly-react">GitHub</a>.
+            </p>
+          </details>
+          <details className="mt-4 block rounded-sm border border-gray-200 px-4 hover:border-primary-300">
+            <summary className="-mx-4 cursor-pointer py-3 px-4">
+              Rafael
             </summary>
             <p>
               Yes, you can! Holly is an open source project, and you can
